@@ -40,9 +40,9 @@ func main() {
         }
     }()
 
-	// Gracefully shutdown the server when receiving an interrupt signal
+    // Gracefully shutdown the server when receiving an interrupt signal
     // This is currently GPT magic for me I need to understand this better
-	c := make(chan os.Signal, 1)
+    c := make(chan os.Signal, 1)
     signal.Notify(c, os.Interrupt)
     <-c
     fmt.Println("\nShutting down server...")
