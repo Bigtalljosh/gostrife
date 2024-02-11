@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/Bigtalljosh/gostrife/internal/services"
+	// TODO: Ask Antony the correct way to do modules, because this can't be it
 	customers "github.com/Bigtalljosh/gostrife/internal/web/customers"
 	landing "github.com/Bigtalljosh/gostrife/internal/web/landing"
 	"github.com/gorilla/mux"
