@@ -1,4 +1,4 @@
-package web
+package landing
 
 import (
 	"net/http"
